@@ -11,6 +11,7 @@
 			<?php
 				if ( $service['connected'] ) $connected = true;
 			endforeach; ?>
+			<div class="social-assurance"><em><?php _e( "Don't worry. You can select <strong>on a post-by-post basis</strong> what posts you share on Facebook and Twitter." ); ?></em></div>
 		</div>
 
 

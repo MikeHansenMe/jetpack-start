@@ -1667,21 +1667,36 @@ section .container .skip a:hover {
   display: block;
   position: relative;
 }
-/* line 183, scss/_main.scss */
+/* line 182, scss/_main.scss */
+.options-box .social-assurance,
+.themes-box .social-assurance,
+.social-box .social-assurance {
+  clear: both;
+  color: #666;
+  padding: 4px;
+  text-align: center;
+}
+/* line 188, scss/_main.scss */
+.options-box .social-assurance strong,
+.themes-box .social-assurance strong,
+.social-box .social-assurance strong {
+  color: #222;
+}
+/* line 193, scss/_main.scss */
 .options-box .theme,
 .themes-box .theme,
 .social-box .theme {
   height: 220px;
   width: 46%;
 }
-/* line 187, scss/_main.scss */
+/* line 197, scss/_main.scss */
 .options-box .theme .small-icon,
 .themes-box .theme .small-icon,
 .social-box .theme .small-icon {
   font-size: 15px;
   margin-right: 6px;
 }
-/* line 191, scss/_main.scss */
+/* line 201, scss/_main.scss */
 .options-box .theme .theme-buttons,
 .themes-box .theme .theme-buttons,
 .social-box .theme .theme-buttons {
@@ -1690,60 +1705,60 @@ section .container .skip a:hover {
   right: 13px;
 }
 
-/* line 198, scss/_main.scss */
+/* line 208, scss/_main.scss */
 .step2 .theme {
   border: 4px solid #ccc;
 }
-/* line 201, scss/_main.scss */
+/* line 211, scss/_main.scss */
 .step2 .theme .theme-preview {
   font-weight: 500;
   -webkit-box-shadow: 0 1px 2px rgba(50, 50, 50, 0.2);
   -moz-box-shadow: 0 1px 2px rgba(50, 50, 50, 0.2);
   box-shadow: 0 1px 2px rgba(50, 50, 50, 0.2);
 }
-/* line 205, scss/_main.scss */
+/* line 215, scss/_main.scss */
 .step2 .theme .theme-preview span:before {
   float: left;
   margin-top: 11px;
 }
 
-/* line 216, scss/_main.scss */
+/* line 226, scss/_main.scss */
 .col-left {
   float: left;
   margin: 0;
   padding: 0;
   width: 35%;
 }
-/* line 222, scss/_main.scss */
+/* line 232, scss/_main.scss */
 .col-left iframe {
   height: 550px;
   width: 100%;
 }
 
-/* line 227, scss/_main.scss */
+/* line 237, scss/_main.scss */
 .col-right {
   float: right;
   margin: 0;
   padding: 0;
   width: 65%;
 }
-/* line 233, scss/_main.scss */
+/* line 243, scss/_main.scss */
 .col-right h2 {
   font-weight: 300;
   margin: 0.61em 0 1em;
 }
-/* line 237, scss/_main.scss */
+/* line 247, scss/_main.scss */
 .col-right .jetpack-reasons {
   padding: 0 0 0 4px;
 }
-/* line 240, scss/_main.scss */
+/* line 250, scss/_main.scss */
 .col-right .jetpack-reasons li {
   list-style: none;
   margin-bottom: 26px;
   padding-left: 50px;
   position: relative;
 }
-/* line 246, scss/_main.scss */
+/* line 256, scss/_main.scss */
 .col-right .jetpack-reasons span.fa {
   color: #555;
   font-size: 36px;
@@ -1751,17 +1766,17 @@ section .container .skip a:hover {
   position: absolute;
   top: 3px;
 }
-/* line 253, scss/_main.scss */
+/* line 263, scss/_main.scss */
 .col-right .jetpack-reasons strong {
   display: block;
 }
 
-/* line 258, scss/_main.scss */
+/* line 268, scss/_main.scss */
 .col-wrap {
   padding: 13px 23px;
 }
 
-/* line 263, scss/_main.scss */
+/* line 273, scss/_main.scss */
 .jetpack-login {
   background: #f6f6f6;
   border: 1px solid #eee;
@@ -1769,54 +1784,54 @@ section .container .skip a:hover {
   padding: 23px 0;
   text-align: center;
 }
-/* line 270, scss/_main.scss */
+/* line 280, scss/_main.scss */
 .jetpack-login a {
   color: #999;
   text-decoration: underline;
 }
-/* line 274, scss/_main.scss */
+/* line 284, scss/_main.scss */
 .jetpack-login a:hover {
   text-decoration: none;
 }
 
-/* line 279, scss/_main.scss */
+/* line 289, scss/_main.scss */
 .jetpack-signup {
   background: #eee;
 }
-/* line 282, scss/_main.scss */
+/* line 292, scss/_main.scss */
 .jetpack-signup input[type="text"] {
   background: #fff;
   border-color: #ddd;
   margin: 6px 0 23px;
 }
-/* line 287, scss/_main.scss */
+/* line 297, scss/_main.scss */
 .jetpack-signup label {
   font-weight: bold;
 }
 
-/* line 292, scss/_main.scss */
+/* line 302, scss/_main.scss */
 .login .signing-up {
   display: none;
 }
-/* line 295, scss/_main.scss */
+/* line 305, scss/_main.scss */
 .login .logging-in {
   display: inline-block;
 }
 
-/* line 300, scss/_main.scss */
+/* line 310, scss/_main.scss */
 .signup .signing-up {
   display: inline-block;
 }
-/* line 303, scss/_main.scss */
+/* line 313, scss/_main.scss */
 .signup .logging-in {
   display: none;
 }
 
-/* line 313, scss/_main.scss */
+/* line 323, scss/_main.scss */
 .step4 .container {
   width: 50%;
 }
-/* line 316, scss/_main.scss */
+/* line 326, scss/_main.scss */
 .step4 .submit {
   float: left;
 }
